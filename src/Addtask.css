@@ -1,0 +1,33 @@
+form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+input{
+    height: 35px;
+    border-top-right-radius:  20px;
+    margin: 0px;
+    
+}
+#btn1{
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-color: black;
+}
+.task{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+#form1{
+    display:grid;
+    grid-template-columns: auto 200px;
+    grid-auto-columns: auto;
+    gap: 20px;
+}
+h1{
+    color: white;
+}
